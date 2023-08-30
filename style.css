@@ -52,3 +52,12 @@ main {
     border: 1px dashed black;
     font-size: 200%;
 }
+
+.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+    border: 1px dashed black;
+    font-size: 200%;  
+}
