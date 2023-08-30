@@ -24,13 +24,13 @@ main {
     flex-direction: column;
     flex: 1;
     background-color: lightgray;
-    border-left: 1px dashed black;
+    border-left: 3px dotted black;
     justify-content: space-evenly;
     align-items: center;
 }
 
 .box {
-    border-top: 1px dashed black;
+    border-top: 3px dotted black;
     width: 100%;
     flex: 1;
     display: flex;
@@ -41,7 +41,7 @@ main {
 }
 
 .notclicked {
-    background-color: lightgray;
+    background-color: gray;
     position: relative;
 
 }
@@ -57,7 +57,7 @@ main {
     border-bottom: 2px solid gray;
     box-sizing: content-box;
     border-collapse: collapse;
-    box-shadow: 2px 2px black;
+    box-shadow: 2px 2px 2px black;
 }
 
 .notclicked::before{
@@ -81,6 +81,7 @@ main {
   align-items: center;
   color: blue;
   font-size: 200%;
+  font-weight: bold;
 }
 
 .two{
@@ -89,6 +90,7 @@ main {
     align-items: center;
     color: green;
     font-size: 200%;
+    font-weight: bold;
 }
 
 .three{
@@ -96,10 +98,21 @@ main {
     justify-content: center;
     align-items: center;
     color: orangered;
-    font-size: 200%;  
+    font-size: 200%; 
+    font-weight: bold; 
 }
 
 .notclicked:hover{
     background-color: lightgray;
+
+}
+
+.hidden, .bomb_hidden {
+    display: none;
+}
+
+.notclicked:hover>.hidden, .notclicked:hover>.bomb_hidden{
+    display: flex;
+    font-size: 150%;
 
 }
