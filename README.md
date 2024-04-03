@@ -2,4 +2,4 @@
 
 ## Project
 
-This project is about how to create a minesweeper in HTML/CSS. You can view the preview on : https://sheyleen.github.io/flexbox-minesweeper/
+This project is about how to create a minesweeper in HTML/CSS. You can view the preview on : 
